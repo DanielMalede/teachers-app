@@ -8,9 +8,31 @@
 </head>
 <body style="background: url(123.jpg);">
     
+<style>
+
+    label{
+        font-style: italic;
+        font-weight: bold;
+    }
+    table,th,tr,td{
+        border: 1px solid black;
+        background-color: #3ab15c;
+        width: 90%;
+    }
+    ul{
+        color:#047ef0;
+        font-weight:bold;
+    }
+    ol{
+        color:#0e72f0;
+        font-style: italic;
+    }
+    
+    
+</style>
 
 
-
+<form>
 
 <header 
 style="height: 10vh;border: 5px solid white;background-color:#4e95e5;color: white;text-align: center;">Wasapp
@@ -25,12 +47,12 @@ style="height: 10vh;border: 5px solid white;background-color:#4e95e5;color: whit
 <br><br>
 
 <label for="email">Email</label>
-<input type="email" name="email">
+<input type="email" name="email" style="width: 30%;">
 
 <br><br>
 
-<label for="Full_name">Full Name</label>   
-<input type="name" name="Full_name" maxlength="30" minlength="2">
+<label  for="Full_name">Full Name</label>   
+<input type="name" name="Full_name" maxlength="30" minlength="2" style="width:30%;">
 
 <br><br>
 
@@ -42,23 +64,99 @@ style="height: 10vh;border: 5px solid white;background-color:#4e95e5;color: whit
 <label for="garde_num">Grade Num</label>
 <input type="number" name="grade_num" max="15" min="0" onkeydown="return false">
 
-<form>
+<br><br>
 
+<label for="save">save</label>
+<input type="button" name="save" value="save" style="width: 200px;height: 100px;background-color: #c3158e;color:white;">
 
-
-
-
-
-
-
-
-
-
+<br><br>
 
 </form>
-
 </div>
 
+<br><br>
+
+<div>
+
+<table>
+    <thead>
+        <th>Full Name</th>
+        <th>Date Of Birth</th>
+        <th>Email</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Jacob Ingidu</td>
+            <td>01.01.1991</td>
+            <td>JacobIngidu@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Israel Mangistu</td>
+            <td>01.01.1995</td>
+            <td>IsraelMangistu@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Asaf Avraham</td>
+            <td>01.01.1993</td>
+            <td>AsafAvraham@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Yossi Mekonen</td>
+            <td>01.01.1996</td>
+            <td>YossiMekonen@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Brahan Wassan</td>
+            <td>01.01.1995</td>
+            <td>BrahanWassan@gmail.com</td>
+        </tr>
+    </tbody>
+</table>
+
+<br><br>
+
+<ol>
+    <li>Jacob Ingidu</li>
+
+        <ul>
+            <li>Full Stack</li>
+            <li>UX</li>
+            <li>HTML</li>
+        </ul>
+    <li>Israel Mangistu</li>
+
+        <ul>
+            <li>QA</li>
+            <li>JS</li>
+            <li>UI</li>
+        </ul>
+    <li>Asaf Avraham</li>
+        <ul>
+            <li>HTML</li>
+            <li>JS</li>
+            <li>UX</li>
+        </ul>
+    
+    <li>Yossi Mekonen</li>
+        <ul>
+            <li>DevOps</li>
+            <li>UI</li>
+            <li>UX</li>
+        </ul>
+    
+    <li>Brahan Wassan</li>
+        <ul>
+            <li>JS</li>
+            <li>DevOps</li>
+            <li>HTML</li>
+        </ul>
+   
+</ol>
+
+
+
+
+</div>
 <footer
     style="height:10vh;border:5px solid white;background-color:#4e95e5;color: white;position: fixed;bottom: 0%;width:98%;text-align: center;">i'm a footer!
 </footer>
